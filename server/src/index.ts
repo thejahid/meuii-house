@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+process.env.NODE_ENV !== "production" && require("dotenv").config();
+
 import { ApolloServer } from "apollo-server-express";
 import express, { Application } from "express";
 
